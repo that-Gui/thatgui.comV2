@@ -1,12 +1,26 @@
-import { useState } from 'react'
-import logo from './logo.svg'
+//section for utility imports
+import React from 'react'
 import './App.css'
+import {Routes, Route} from 'react-router-dom'
 
-function App() {
-  const [count, setCount] = useState(0)
+//section for component imports
+import logo from './logo.svg'
+
+//section for reactFC
+const App: React.FC = () => {
+  const [count, setCount] = React.useState(0)
 
   return (
     <div className="App">
+      
+
+      {/* <Routes>
+        <Route path="/" element={} />
+        <Route path="work" element={} />
+        <Route path="contact" element={} />
+      </Routes> */}
+//bellow this is all boiler plate
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React!</p>
