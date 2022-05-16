@@ -4,6 +4,8 @@ import './App.css'
 import {Routes, Route} from 'react-router-dom'
 
 /* section for component imports */
+import Navbar from './components/Navbar/Navbar'
+import Landing from './components/Landing/Landing'
 
 /* section for reactFC */
 const App: React.FC = () => {
@@ -12,12 +14,9 @@ const App: React.FC = () => {
   return (
     <div className="App">
       
-      <h1>this</h1>
-      <h3>font</h3>
-      <p>Hello gui, use this paragraph to see if the font is chaging</p>
-
+      <Navbar />
       <Routes>
-        <Route path="/" /* element={} */ />
+        <Route path="/" element={<Landing />} />
         <Route path="work" /* element={} */ />
         <Route path="contact" /* element={} */ />
       </Routes>

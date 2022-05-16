@@ -1,0 +1,11 @@
+/* section for mobile style  */ 
+.mct{
+    color: var(--dark);
+}
+
+/* section for desktop style */
+@media screen and (min-width: 599px) {
+
+
+
+}

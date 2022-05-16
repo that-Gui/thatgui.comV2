@@ -1,0 +1,28 @@
+/* section for mobile style  */ 
+.nav{
+    color: var(--light);
+    background-color: var(--dark);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navitem{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: var(--light);
+}
+
+.navitem:hover{
+    color: var(--secondary);
+}
+
+/* section for desktop style */
+@media screen and (min-width: 599px) {
+
+    .nav{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+}
