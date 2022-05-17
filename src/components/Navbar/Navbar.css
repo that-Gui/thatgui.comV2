@@ -8,13 +8,34 @@
 
 .navitem{
     text-decoration: none;
+    text-align: center;
     font-size: 2rem;
     padding: 0.5rem;
     color: var(--light);
 }
 
-.navitem:hover{
+.actnav{
     color: var(--secondary);
+}
+
+.heropunch {
+    background: url(./attacksv2.png);
+    width: 2rem;
+    height: 23px;
+    transform: scale(2);
+    animation: punch 1s steps(12) infinite;
+    margin-right: -1rem;
+    margin-top: -1rem;
+}
+
+@keyframes punch {
+    100%{
+        background-position: 0px 276px;
+    }
+
+    0%{
+        background-position: 0px 0px;
+    }
 }
 
 /* section for desktop style */
@@ -23,6 +44,26 @@
     .nav{
         justify-content: space-around;
         align-items: center;
+    }
+
+    .navitem{
+        width: 5rem;
+        height: 3rem;
+    }
+
+    .navitem:hover{
+        color: var(--secondary);
+    }
+    
+    .actnav{
+        color: var(--dark);
+        background-color: var(--light);
+    }
+
+    .heropunch{
+        margin-right: 0;
+        margin-top: 0;
+        margin-left: 1rem;
     }
 
 }

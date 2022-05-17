@@ -6,6 +6,8 @@ import {Routes, Route} from 'react-router-dom'
 /* section for component imports */
 import Navbar from './components/Navbar/Navbar'
 import Landing from './components/Landing/Landing'
+import Work from './components/Work/Work'
+import Contact from './components/contact/Contact'
 
 /* section for reactFC */
 const App: React.FC = () => {
@@ -17,8 +19,8 @@ const App: React.FC = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="work" /* element={} */ />
-        <Route path="contact" /* element={} */ />
+        <Route path="/work" element={<Work />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
 
     </div>

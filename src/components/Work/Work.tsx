@@ -1,18 +1,19 @@
 //section for utility imports
 import React from 'react'
-import './Landing.css'
+import './Work.css'
+
 
 //section for component imports
 
 
 //section for reactFC
-const Landing: React.FC = () => {
+const Work: React.FC = () => {
   
     return (
-
+    
     <div className="mct">
-        
-        <h1>Landing Page</h1>
+
+        <h1>this will be the portoflio page</h1>
         <p>bun burger bun</p>
         <h2>bun</h2>
         <h3>burger</h3>
@@ -20,8 +21,8 @@ const Landing: React.FC = () => {
         <p>bun burger bun</p>
 
     </div>
-
+    
   )
 }
 
-export default Landing
+export default Work

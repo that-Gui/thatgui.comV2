@@ -9,7 +9,9 @@
 
 .mct {
     margin-bottom: 5rem;
+    padding: 1rem;
     background-color: var(--light);
+    color: var(--dark);
 }
 
 
@@ -26,7 +28,9 @@
 
 .mct {
     margin-left: 5rem;
+    padding: 1rem;
     background-color: var(--light);
+    color: var(--dark);
 }
 
 }
